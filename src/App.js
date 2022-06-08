@@ -5,37 +5,53 @@ import Tag from "./Component/Tag";
 
 function App() {
 
-
-  // const tag = ['#value1','#value2','#value3']
-
-  const image= require(".//Images/Sunset.png");
-
-  const CardShow = () => {
-      for(let i=0 ;i<dataSet.length;i++){
-
-      }
-  }
-
   const dataSet = [
     {
       image: require(".//Images/Sunset.png"),
-      Hashtag : ['#value1 ',' #value2 '],
+      Hashtag : ['value1','value2','value4'],
+      title:"React JS",
+      desc: "React JS Implementation"
+    },
+    {
+      image: require(".//Images/Sunset.png"),
+      Hashtag : ['value1','value2','value5'],
+      title:"Vue JS",
+      desc: "Vue JS Implementation"
+    },
+    {
+      image: require(".//Images/Sunset.png"),
+      Hashtag : ['value1 ',' value2'],
+      title:"Angular JS",
+      desc: "Angular JS Implementation"
+    },
+    {
+      image: require(".//Images/Sunset.png"),
+      Hashtag : ['value1 ',' value2'],
+      title:"Angular JS",
+      desc: "Angular JS Implementation"
+    },
+    {
+      image: require(".//Images/Sunset.png"),
+      Hashtag : ['value1 ',' value2'],
+      title:"Angular JS",
+      desc: "Angular JS Implementation"
     },
   ]
 
   return (
+    
     <div className="App">
-      <div className="flex flex-row justify-evenly">
-        <Card title="Testing" desc="Testing dlu ya bisa apa engga" tag="#JS" img={image} />
-        <Card title="Testing" desc="Testing dlu ya bisa apa engga" tag=
-        {dataSet.map((data) => (
-          data.Hashtag.map((Hashtag) => (
-              <Tag tag={Hashtag}/>
-              ))  
+      <div className="grid grid-cols-3 justify-items-center gap-8" >
+        {dataSet.map((data)=>(
+          <Card title={data.title} desc={data.desc} tag=
+          {(
+            data.Hashtag.map((Hashtag) => (
+                <Tag tag={Hashtag}/>
+                ))  
+            )} img={data.image} />
+            
           ))
         }
-        img={dataSet[0].image}/>
-        <Card />
       </div>
     </div>
   );
