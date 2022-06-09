@@ -5,6 +5,7 @@ module.exports = {
       gridTemplateColumns: {
         '3': 'repeat(3, minmax(0, 2fr))'
       }
+      
     },
   },
   plugins: [],

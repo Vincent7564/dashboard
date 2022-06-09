@@ -1,11 +1,9 @@
-import Tag from './Tag'
-
 const Card = (props) => {
   return (
-    <div class="max-w-sm rounded overflow-hidden shadow-2xl basis-1/3">
+    <div class="max-w-sm rounded overflow-hidden shadow-xl basis-1/3 bg-sky-200/50">
       <img
-        class="w-full"
-        src= {props.img}
+        class="w-full h-100"
+        src= {require('../Images/' + props.img)}
         alt="Sunset in the mountains"
       />
       <div class="px-6 py-4">
