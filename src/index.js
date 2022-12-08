@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';  
+import Header from './Component/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className="pb-8">
+      <Header />
+    </div>
     <div className="pt-10 pl-20 pr-20">
+      z
       <App />
     </div>
     

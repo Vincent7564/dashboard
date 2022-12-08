@@ -8,7 +8,7 @@ function App() {
   const dataSet = [
     {
       image: "React.jpeg",
-      Hashtag : ['value1','value2','value4'],
+      Hashtag : ['value1','value2','value4','value4'],
       title:"React JS",
       desc: "React JS Implementation"
     },
