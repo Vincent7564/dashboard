@@ -12,7 +12,6 @@ root.render(
       <Header />
     </div>
     <div className="pt-10 pl-20 pr-20">
-      z
       <App />
     </div>
     
