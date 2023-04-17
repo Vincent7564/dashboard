@@ -3,9 +3,12 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        '3': 'repeat(3, minmax(0, 2fr))'
-      }
-      
+        '3': 'repeat(3, minmax(0, 1fr))'
+      },
+      colors:{
+        'tweet-blue' : '#55acee',
+        'facebook-blue' : '#3b5998'
+      },
     },
   },
   plugins: [],
