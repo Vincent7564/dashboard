@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Router,Routes,Route,BrowserRouter } from "react-router-dom";
 import AboutMe from '../Pages/AboutMe';
 import Language from '../Pages/Language';
+import Calendar from '../Pages/Calendar';
 import { useState } from 'react';
 
 function classNames(...classes) {
@@ -16,7 +17,7 @@ export default function Header() {
     { name: 'Dashboard', href: '#', current: true },
     { name: 'Language', href: '/lang', current: false },
     { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    { name: 'Calendar', href: './calendar', current: false },
     { name: 'Contact', href: './about-me', current: false },
   ]);
 
@@ -71,13 +72,11 @@ export default function Header() {
                       </Link>
                     ))}
           </div>
-          <div className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">
-              <Link to={"./SignUp"}>Login</Link>
-          </div>
         </div>
       </nav>
 
       <Routes>
+        <Route path="/calendar" element={<Calendar />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/lang" element={<Language/>} />
       </Routes>
