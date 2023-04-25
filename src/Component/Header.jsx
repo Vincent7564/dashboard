@@ -7,6 +7,7 @@ import AboutMe from '../Pages/AboutMe';
 import Language from '../Pages/Language';
 import Calendar from '../Pages/Calendar';
 import { useState } from 'react';
+import Project from '../Pages/Project';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -16,7 +17,7 @@ export default function Header() {
   const [navigation,setNavigation] = useState([
     { name: 'Dashboard', href: '#', current: true },
     { name: 'Language', href: '/lang', current: false },
-    { name: 'Projects', href: '#', current: false },
+    { name: 'Projects', href: '/project', current: false },
     { name: 'Calendar', href: './calendar', current: false },
     { name: 'Contact', href: './about-me', current: false },
   ]);
@@ -79,6 +80,7 @@ export default function Header() {
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/lang" element={<Language/>} />
+        <Route path="/project" element={<Project/>} />
       </Routes>
     </BrowserRouter>
   )

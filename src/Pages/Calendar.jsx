@@ -8,7 +8,11 @@ const Calendar = () => {
         <a href="https://github.com/Vincent7564">
         <img src={Github} alt="git" width="50px" height= "50px" /></a> &nbsp; Github Activity
         </span>
-      <div className="pl-10 pt-10 pb-10 flex align-middle text-white">
+        <span className="flex pt-4 align-middle pr-[60rem] text-lg text-white">
+        <a href="https://github.com/Vincent7564">
+        <img src={Github} alt="git" width="25px" height= "25px" /></a> &nbsp; Username : Vincent7564
+        </span>
+      <div className="pl-10 pt-10 pb-10  flex align-middle text-white">
         <GitHubCalendar
           username="vincent7564"
           blockMargin={10}
