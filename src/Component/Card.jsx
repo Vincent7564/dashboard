@@ -4,7 +4,7 @@ const Card = (props) => {
     return (
       <div class="max-w-[16rem] rounded overflow-hidden shadow-xl basis-1/3 bg-sky-200/50">
         <img
-          class="w-full h-100"
+          style={{ width: "400px", height: "200px" }}
           src={require("../Images/" + props.img)}
           alt={props.img}
         />
@@ -20,9 +20,10 @@ const Card = (props) => {
     <div>
       <div class="max-w-[16rem] rounded overflow-hidden shadow-xl basis-1/3 bg-sky-200/50">
         <img
-          class="w-full h-100"
+          style={{ width: "400px", height: "200px" }}
           src={require("../Images/" + props.img)}
           alt={props.img}
+          key={props.img}
         />
         <div className="px-6 py-4">
           <div class="font-bold text-l mb-2">{props.title}</div>

@@ -15,11 +15,12 @@ function classNames(...classes) {
 
 export default function Header() {
   const [navigation,setNavigation] = useState([
-    { name: 'Dashboard', href: '#', current: true },
+    { name: 'Dashboard', href: '/', current: false },
     { name: 'Language', href: '/lang', current: false },
     { name: 'Projects', href: '/project', current: false },
     { name: 'Calendar', href: './calendar', current: false },
     { name: 'Contact', href: './about-me', current: false },
+    { name: 'Working Experience', href: './experience', current: false },
   ]);
 
   const handleLinkClick = (index) => {
@@ -81,6 +82,7 @@ export default function Header() {
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/lang" element={<Language/>} />
         <Route path="/project" element={<Project/>} />
+        <Route path="/" element={<Project/>} />
       </Routes>
     </BrowserRouter>
   )

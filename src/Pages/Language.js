@@ -7,33 +7,43 @@ function Language() {
   const dataSet = [
     {
       image: "React.jpeg",
-      Hashtag: ["value1", "value2", "value4", "value4"],
       title: "React JS",
-      desc: "React JS Implementation",
+      desc: "Javascript Framework",
     },
     {
-      image: "Vue.jpg",
-      Hashtag: ["value1", "value2", "value5"],
-      title: "Vue JS",
-      desc: "Vue JS Implementation",
+      image: "laravel-8.jpg",
+      title: "Laravel",
+      desc: "PHP Framework",
     },
     {
-      image: "AngularJS.png",
-      Hashtag: ["value1 ", " value2"],
-      title: "Angular JS",
-      desc: "Angular JS Implementation",
+      image: "JavaScript-logo.png",
+      title: "Javascript",
+      desc: "Javascript",
     },
     {
-      image: "AngularJS.png",
-      Hashtag: ["value1 ", " value2"],
-      title: "Angular JS",
-      desc: "Angular JS Implementation",
+      image: "Tailwind.png",
+      title: "Tailwind CSS",
+      desc: "CSS Framework",
     },
     {
-      image: "AngularJS.png",
-      Hashtag: ["value1 ", " value2"],
-      title: "Angular JS",
-      desc: "Angular JS Implementation",
+      image: "Microsoft-SQL-Server.png",
+      title: "SQL Server",
+      desc: "Database",
+    },
+    {
+      image: "Java.png",
+      title: "Java",
+      desc: "Java",
+    },
+    {
+      image: "Net.png",
+      title: ".Net C#",
+      desc: "C# Framework",
+    },
+    {
+      image: "Python-Symbol.png",
+      title: "Phyton",
+      desc: "Phyton",
     },
   ];
 
@@ -45,9 +55,6 @@ function Language() {
             <Card
               title={data.title}
               desc={data.desc}
-              tag={data.Hashtag.map((Hashtag) => (
-                <Tag tag={Hashtag} />
-              ))}
               img={data.image}
             />
           ))}
