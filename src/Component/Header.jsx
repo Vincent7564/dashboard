@@ -8,6 +8,7 @@ import Language from '../Pages/Language';
 import Calendar from '../Pages/Calendar';
 import { useState } from 'react';
 import Project from '../Pages/Project';
+import WorkingExperience from '../Pages/WorkingExperience';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -83,6 +84,7 @@ export default function Header() {
         <Route path="/lang" element={<Language/>} />
         <Route path="/project" element={<Project/>} />
         <Route path="/" element={<Project/>} />
+        <Route path="/experience" element={<WorkingExperience/>} />
       </Routes>
     </BrowserRouter>
   )

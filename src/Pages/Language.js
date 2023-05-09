@@ -31,7 +31,7 @@ function Language() {
       desc: "Database",
     },
     {
-      image: "Java.png",
+      image: "Java.jpg",
       title: "Java",
       desc: "Java",
     },

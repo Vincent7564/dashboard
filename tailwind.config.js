@@ -7,7 +7,8 @@ module.exports = {
       },
       colors:{
         'tweet-blue' : '#55acee',
-        'facebook-blue' : '#3b5998'
+        'facebook-blue' : '#3b5998',
+        'navy' : '#333a66'
       },
     },
   },
