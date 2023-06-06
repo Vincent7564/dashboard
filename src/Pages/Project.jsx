@@ -27,7 +27,7 @@ function Project() {
     },
     {
       image: "International_Pokémon_logo.svg.png",
-      Hashtag: ["React JS", "Tailwind CSS","MariaDB"],
+      Hashtag: ["React JS", "Tailwind CSS","Webpack"],
       title: "Poke-Wiki",
       desc: "A Simple Pokemon Finder Base on their name using Poke-Api.co with Tailwind and React, Collab with my friends",
       hyperlink: "https://github.com/laurensiavee/poke-wiki"
