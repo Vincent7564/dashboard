@@ -25,6 +25,21 @@ function Project() {
       desc: "Amazing book store is a website for renting a book which have an auth for admin and customer built in laravel",
       hyperlink: "https://github.com/Vincent7564/Weather-App"
     },
+    {
+      image: "International_Pokémon_logo.svg.png",
+      Hashtag: ["React JS", "Tailwind CSS","MariaDB"],
+      title: "Poke-Wiki",
+      desc: "A Simple Pokemon Finder Base on their name using Poke-Api.co with Tailwind and React, Collab with my friends",
+      hyperlink: "https://github.com/laurensiavee/poke-wiki"
+    },
+    {
+      image: "JavaScript-logo.png",
+      Hashtag: ["Javascript", "CSS","HTML 5",'Fetch API','ES6'],
+      title: "30 Days Javascript",
+      desc: "A 30 days challenge of Javascript using Vanilla JS, CSS and few API using Fetch with ES6",
+      hyperlink: "https://github.com/Vincent7564/learn-javascript"
+    },
+
   ];
 
   return (
