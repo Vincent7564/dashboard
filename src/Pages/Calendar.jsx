@@ -3,7 +3,7 @@ import Github from '../Images/github-mark.svg';
 const Calendar = () => {
 
   return (
-    <div className="bg-black">
+    <div className="m-10 bg-gray-600">
         <span className="flex pt-10 align-middle text-2xl text-white">
         <a href="https://github.com/Vincent7564">
         <img src={Github} alt="git" width="50px" height= "50px" /></a> &nbsp; Github Activity

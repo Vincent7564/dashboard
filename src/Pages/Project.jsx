@@ -44,7 +44,7 @@ function Project() {
 
   return (
     <div className="App">
-      <div className="text-3xl pb-5 text-center pt-5 font-bold">List Projects i've created</div>
+      <div className="text-3xl text-center pt-5 font-bold text-slate-300">List Projects i've created</div>
       <div className=" ml-64 mr-64 text-center text-2xl pb-5 pl-20 pr-5">
         {/* <div className="flex justify-around">
             <span><button className=" w-[250px] h-[50px] border-8 backdrop-blur-sm">Web</button></span>

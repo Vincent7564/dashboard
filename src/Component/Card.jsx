@@ -10,7 +10,7 @@ const Card = (props) => {
         />
         <div className="px-6 py-4">
           <div class="font-bold text-l mb-2">{props.title}</div>
-          <p class="text-gray-700 text-xs">{props.desc}</p>
+          <p class="text-slate-300 text-xs">{props.desc}</p>
         </div>
         <div className="px-6 pt-4 pb-2">{props.tag}</div>
       </div>
@@ -27,7 +27,7 @@ const Card = (props) => {
         />
         <div className="px-6 py-4">
           <div class="font-bold text-l mb-2">{props.title}</div>
-          <p class="text-gray-700 text-xs">{props.desc}</p>
+          <p class="text-slate-300 text-xs"><b>{props.desc}</b></p>
         </div>
         <div className="px-6 pt-4 pb-2">{props.tag}</div>
         <span className="flex justify-end pr-2 pb-3">

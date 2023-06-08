@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <BrowserRouter>
-      <nav className="flex items-center justify-between flex-wrap bg-facebook-blue p-6">
+      <nav className="flex items-center justify-between flex-wrap bg-zinc-900 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6 pl-10">
           <span className="font-semibold text-xl tracking-tight">
             <Link to={'/'}>

@@ -19,10 +19,10 @@ const WorkingExperience = () =>{
     
       return (
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center text-navy">Working Experience</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-slate-300">Working Experience</h2>
           {experiences.map((experience, index) => (
             <div
-              className="bg-white rounded shadow p-4 mb-4 hover:bg-navy hover:text-white transition duration-300"
+              className="bg-white rounded shadow p-4 mb-4 hover:bg-slate-300 hover:text-zinc-900 transition duration-300"
               key={index}
             >
               <h3 className="text-xl font-semibold mb-2">{experience.company}</h3>
