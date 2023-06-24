@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Project from '../Pages/Project';
 import Dashboard from './Dashboard';
 import WorkingExperience from '../Pages/WorkingExperience';
+import Certification from '../Pages/Certification';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -20,9 +21,11 @@ export default function Header() {
     { name: 'Dashboard', href: '/', current: false },
     { name: 'Language', href: '/lang', current: false },
     { name: 'Projects', href: '/project', current: false },
+    { name: 'Certification', href: './certification', current: false },
     { name: 'Calendar', href: './calendar', current: false },
     { name: 'Contact', href: './about-me', current: false },
     { name: 'Working Experience', href: './experience', current: false },
+    
   ]);
 
   const handleLinkClick = (index) => {
@@ -86,6 +89,7 @@ export default function Header() {
         <Route path="/project" element={<Project/>} />
         <Route path="/" element={<Dashboard />} />
         <Route path="/experience" element={<WorkingExperience/>} />
+        <Route path="/certification" element={<Certification/>} />
       </Routes>
     </BrowserRouter>
   )
