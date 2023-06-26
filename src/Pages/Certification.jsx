@@ -1,7 +1,7 @@
 import Card from "../Component/Card";
 const Certificate = [
   {
-    image: "openweather.jpg",
+    img: "SCL.png",
     title: "Shopee Code League",
     desc: "Shopee Code League is an international event that held by Shopee, this event to encourage a coder to participate in a code competition especially in Data Structures and Algorithms",
   },
@@ -15,8 +15,9 @@ const Certification = () => {
       <div className="grid grid-cols-3 gap-6 pt-5">
         {Certificate.map((certificate) => (
           <Card
+          key={certificate.img}
             title={certificate.title}
-            img={certificate.image}
+            img={certificate.img}
             desc={certificate.desc}
           />
         ))}
