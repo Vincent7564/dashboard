@@ -39,6 +39,13 @@ function Project() {
       desc: "A 30 days challenge of Javascript using Vanilla JS, CSS and few API using Fetch with ES6",
       hyperlink: "https://github.com/Vincent7564/learn-javascript"
     },
+    {
+      image: "V&V.png",
+      Hashtag: ["Node JS", "Tailwind CSS","React JS","Express JS","MongoDB","HTML 5",'Fetch API','ES6'],
+      title: "V&V E-Commerce Shop",
+      desc: "A Website with a E-Commerce background website with own ideas, There's Backend tho, this github button will redirect to Frontend but you can explore it in my repo",
+      hyperlink: "https://github.com/Vincent7564/E-Commerce-Frontend"
+    },
 
   ];
 
