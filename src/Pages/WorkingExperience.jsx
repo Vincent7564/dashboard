@@ -24,10 +24,10 @@ const WorkingExperience = () => {
         Working Experiences
       </div>
 
-      <div className="container mx-auto">
+      <div className="flex justify-center align-middle">
         {experiences.map((experience, index) => (
           <div
-            className="bg-white rounded shadow p-4 mb-4 hover:bg-slate-300 hover:text-zinc-900 transition duration-300"
+            className="bg-white rounded shadow p-4 mb-4  transition duration-300"
             key={index}
           >
             <h3 className="text-xl font-semibold mb-2">{experience.company}</h3>

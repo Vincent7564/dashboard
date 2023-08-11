@@ -66,7 +66,7 @@ function Language() {
     <div className="App">
             <div className="text-3xl text-center pt-16 font-bold text-slate-300">Technical Stack / Tools</div>
       <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-6 pt-6">  
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-6 pt-6">  
           {dataSet.map((data) => (
             <Card
               title={data.title}

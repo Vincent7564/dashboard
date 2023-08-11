@@ -41,7 +41,7 @@ function Project() {
     },
     {
       image: "V&V.png",
-      Hashtag: ["Node JS", "Tailwind CSS","React JS","Express JS","MongoDB","HTML 5",'Axios','ES6'],
+      Hashtag: ["Node JS", "Tailwind CSS","React JS","Express JS","MongoDB"],
       title: "V&V E-Commerce Shop",
       desc: "A Website with a E-Commerce background website with own ideas, There's Backend tho, this github button will redirect to Frontend but you can explore it in my repo",
       hyperlink: "https://github.com/Vincent7564/E-Commerce-Frontend"
@@ -59,7 +59,7 @@ function Project() {
         </div> */}
       </div>
       <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-6 pt-5">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-6 pt-5">
           {dataSet.map((data) => (
             <Card
               title={data.title}

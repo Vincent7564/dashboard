@@ -6,11 +6,11 @@ const AboutMe = () => {
     return (
       <div>
       <div className="text-3xl text-center pt-16 font-bold text-slate-300">Contact Me</div>
-        <div className="text-center text-4xl pt-5 mt-10 text-slate-300">
+        <div className="text-center text-4xl pt-5 mt-10 text-slate-300 pb-20">
           
           <div className="flex justify-center pr-20">
             <div className="">
-              <a href="https://mail.google.com/mail/">
+              <a href="mailto:vincent7564756@gmail.com">
                 <div className="flex justify-between w-[75px] h-[75px] pt-5">
                   <div className="align-middle pl-3 text-xl">
                     <span><SiGmail size={50} color="dc2626" /></span>

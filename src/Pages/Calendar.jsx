@@ -7,7 +7,7 @@ const Calendar = () => {
         Github Calendar
       </div>
 
-      <div className="m-10 bg-gray-600">
+      <div className="m-10 mr-96 ml-96 mt-10 mb-10 bg-gray-600">
         <span className="flex pt-10 align-middle text-2xl text-white">
           <a href="https://github.com/Vincent7564">
             <img src={Github} alt="git" width="50px" height="50px" />
@@ -23,8 +23,8 @@ const Calendar = () => {
         <div className="pl-10 pt-10 pb-10  flex align-middle text-white">
           <GitHubCalendar
             username="vincent7564"
-            blockMargin={10}
-            blockRadius={2}
+            blockMargin={5}
+            blockRadius={3}
             blockSize={16}
             showWeekdayLabels={true}
             colorScheme="light"
