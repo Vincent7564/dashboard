@@ -10,7 +10,7 @@ const Certificate = [
 const Certification = () => {
   return (
     <>
-    <div className="text-3xl text-center pt-10 font-bold text-slate-300">Certification I've Had</div>
+          <div className="text-3xl text-center pt-16 font-bold text-slate-300">Certification</div>
     <div className="flex justify-center pt-10">
       <div className="grid grid-cols-3 gap-6 pt-5">
         {Certificate.map((certificate) => (

@@ -45,12 +45,28 @@ function Language() {
       title: "Phyton",
       desc: "Phyton",
     },
+    {
+      image: "Express.jpg",
+      title: "Express JS",
+      desc: "Javascript Framework for Backend",
+    },
+    {
+      image: "Mongodb.png",
+      title: "Mongo DB",
+      desc: "No SQL Database",
+    },
+    {
+      image: "NodeJS.png",
+      title: "Node JS",
+      desc: "Javascript Framework",
+    },
   ];
 
   return (
     <div className="App">
-      <div className="flex justify-center"> 
-        <div className="grid grid-cols-3 gap-6 pt-6">
+            <div className="text-3xl text-center pt-16 font-bold text-slate-300">Technical Stack / Tools</div>
+      <div className="flex justify-center">
+        <div className="grid grid-cols-3 gap-6 pt-6">  
           {dataSet.map((data) => (
             <Card
               title={data.title}

@@ -11,13 +11,13 @@ const RouteList = () => {
     <>
   <BrowserRouter>
     <Routes>
-      <Route path="/calendar" element={<Calendar />} />
-      <Route path="/about-me" element={<AboutMe />} />
-      <Route path="/lang" element={<Language />} />
-      <Route path="/project" element={<Project />} />
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/experience" element={<WorkingExperience />} />
-      <Route path="/certification" element={<Certification />} />
+      <Route path="#calendar" element={<Calendar />} />
+      <Route path="#about-me" element={<AboutMe />} />
+      <Route path="#lang" element={<Language />} />
+      <Route path="#project" element={<Project />} />
+      <Route path="#" element={<Dashboard />} />
+      <Route path="#experience" element={<WorkingExperience />} />
+      <Route path="#certification" element={<Certification />} />
     </Routes>
   </BrowserRouter>;
   </>

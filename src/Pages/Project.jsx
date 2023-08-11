@@ -41,7 +41,7 @@ function Project() {
     },
     {
       image: "V&V.png",
-      Hashtag: ["Node JS", "Tailwind CSS","React JS","Express JS","MongoDB","HTML 5",'Fetch API','ES6'],
+      Hashtag: ["Node JS", "Tailwind CSS","React JS","Express JS","MongoDB","HTML 5",'Axios','ES6'],
       title: "V&V E-Commerce Shop",
       desc: "A Website with a E-Commerce background website with own ideas, There's Backend tho, this github button will redirect to Frontend but you can explore it in my repo",
       hyperlink: "https://github.com/Vincent7564/E-Commerce-Frontend"
@@ -51,7 +51,7 @@ function Project() {
 
   return (
     <div className="App">
-      <div className="text-3xl text-center pt-5 font-bold text-slate-300">List Projects i've created</div>
+      <div className="text-3xl text-center pt-16 font-bold text-slate-300">Project List</div>
       <div className=" ml-64 mr-64 text-center text-2xl pb-5 pl-20 pr-5">
         {/* <div className="flex justify-around">
             <span><button className=" w-[250px] h-[50px] border-8 backdrop-blur-sm">Web</button></span>

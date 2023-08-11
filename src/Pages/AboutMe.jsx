@@ -4,8 +4,10 @@ import {BsInstagram,BsDiscord} from 'react-icons/bs'
 import {AiFillLinkedin} from 'react-icons/ai'
 const AboutMe = () => {
     return (
+      <div>
+      <div className="text-3xl text-center pt-16 font-bold text-slate-300">Contact Me</div>
         <div className="text-center text-4xl pt-5 mt-10 text-slate-300">
-          You can Reach me At
+          
           <div className="flex justify-center pr-20">
             <div className="">
               <a href="https://mail.google.com/mail/">
@@ -43,6 +45,8 @@ const AboutMe = () => {
         </div>
         </div>
     </div>
+    </div>
+
   );
 };
 export default AboutMe;
