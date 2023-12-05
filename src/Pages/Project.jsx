@@ -46,6 +46,13 @@ function Project() {
       desc: "A Website with a E-Commerce background website with own ideas, There's Backend tho, this github button will redirect to Frontend but you can explore it in my repo",
       hyperlink: "https://github.com/Vincent7564/E-Commerce-Frontend"
     },
+    {
+      image: "cheatsheet.png",
+      Hashtag: ["Vue JS", "Tailwind CSS","Markdown"],
+      title: "Cheatsheet",
+      desc: "Cheatsheet for certain framework,version controller and etc",
+      hyperlink: "https://github.com/Vincent7564/cheatsheet"
+    },
 
   ];
 
