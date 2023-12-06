@@ -2,7 +2,7 @@ import Github from "../Images/github-mark.svg";
 const Card = (props) => {
   return (
     <div>
-      <div class="max-w-[16rem] rounded-lg overflow-hidden shadow-xl basis-1/3 bg-sky-200/50 wrapper transform transition duration-500 hover:scale-110 hover:shadow-3xl cursor-pointer">
+      <div class="max-w-[16rem] rounded-lg overflow-hidden shadow-xl basis-1/3 bg-sky-200/50 transition duration-500 hover:scale-110 hover:shadow-3xl">
         <img
           style={{ width: "400px", height: "200px" }}
           src={require("../Images/" + props.img)}

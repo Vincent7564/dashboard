@@ -31,7 +31,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-zinc-900 p-6 sticky top-0">
+    <nav className="flex items-center justify-between flex-wrap bg-zinc-900 p-6 sticky top-0 -z-1">
       {/* Your logo and other header content */}
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="flex items-center flex-shrink-0 text-white mr-6 pl-10">
