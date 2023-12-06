@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Dashboard = () => {
   return (
     <div>
@@ -13,6 +14,13 @@ const Dashboard = () => {
         <div class="col-span-2 ..."></div>
         <div class="row-span-2 col-span-2 ..."></div>
       </div>
+      <div class="bottom-0 right-0">
+        <AnchorLink href='#home'>
+            <button class="bg-sky-400 text-white py-2 px-4 rounded-lg mb-10 mr-10 fixed bottom-0 right-0">
+                Scroll to Top
+            </button>
+        </AnchorLink>
+    </div>
     </div>
   );
 };
