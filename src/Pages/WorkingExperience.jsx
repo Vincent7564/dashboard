@@ -27,7 +27,7 @@ const WorkingExperience = () => {
       <div className="flex justify-center align-middle">
         {experiences.map((experience, index) => (
           <div
-            className="bg-white rounded shadow p-4 mb-4  transition duration-300"
+            className=" border-2 rounded shadow p-4 mb-4  transition duration-300 text-white" 
             key={index}
           >
             <h3 className="text-xl font-semibold mb-2">{experience.company}</h3>
